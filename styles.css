@@ -1,0 +1,214 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header, .list2{
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo1{
+  padding-right: 5em;
+
+}
+
+.logo1 img{
+  object-fit: contain;
+  height: 50px;
+  width: 150px;
+  padding-right: 3em;
+}
+
+header li{
+  list-style: none;
+}
+
+header button, .form-container button{
+  background-color: rgb(250, 87, 87);
+  color: white;
+  font-weight: bolder;
+  border: none;
+  width: 5.5em;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.top{
+  /* border: 2px solid; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-top: 2em;
+}
+
+.top-image2 img{
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: -1;
+
+}
+
+.top-content{
+  padding-top: 2em;
+}
+
+.top-buttons button{
+  width: 10em;
+  height: 3em;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin-top: 1em;
+}
+
+#blue, .also-features-content button, .card button, .qNa button{
+  background-color: rgb(83, 104, 223);
+  color: white;
+}
+
+#white{
+  background-color: white;
+  color: black;
+  box-shadow: 1px 3px 10px rgb(0 0 0 / 10%);
+}
+
+.features, .extensions, .qNa, .form-container{
+  text-align: center;
+  padding: 5em 7em;
+}
+
+.features ul{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+.features li{
+  list-style: none;
+}
+
+.also-features{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* border: 2px solid; */
+}
+
+.clone-image1{
+  position: absolute;
+  z-index: 2;
+  top: -10px;
+  left: 30px;
+}
+
+.clone-image2 img{
+  transform: rotate(180deg);
+}
+
+.also-features-content button, .qNa button{
+  width: 10em;
+  height: 3em;
+  border: none;
+  border-radius:  5px;
+  font-weight: bolder;
+}
+
+.also-features-content{
+  padding-top: 3em;
+}
+
+.all-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card{
+  text-align: center;
+  /* border: 2px solid; */
+  border-radius: 5px;
+  width: 25vw;
+  box-shadow: 1px 3px 10px rgb(148, 148, 148);
+}
+
+.card hr{
+  border: 2px dashed black;
+}
+
+.card button{
+  width: 15em;
+  height: 3em;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+.qs-lists{
+  padding: 0 10em;
+  text-align: left;
+}
+
+.qNa button{
+  margin-top: 2em;
+}
+
+.form-container{
+  background-color:rgb(83, 104, 223);
+  color: white;
+  font-weight: bolder;
+}
+
+.form-container button{
+  width: 10em;
+}
+
+.form-container input{
+  height: 3em;
+  width: 20em;
+  border-radius: 5px;
+  border: none;
+}
+
+.before-footer{
+  background-color: rgb(1, 1, 39);
+  color: white;
+  display: flex;
+  height: 100px;
+}
+
+.list2{
+  align-items: center;
+  padding: 0 6em;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.icons img{
+  object-fit: contain;
+  padding-left: .5em;
+}
+
+footer{
+  text-align: center;
+  font-size: .8em;
+}
+
+footer a{
+  color:rgb(83, 104, 223);
+}
